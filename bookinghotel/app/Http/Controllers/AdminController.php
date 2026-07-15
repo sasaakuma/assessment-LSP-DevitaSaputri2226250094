@@ -30,6 +30,7 @@ class AdminController extends Controller
                     return redirect()->back();
                 }
             }
-        return view('home');
     }
 }
+
+

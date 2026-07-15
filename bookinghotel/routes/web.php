@@ -18,6 +18,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-route::get('/home', [AdminController::class, 'index']);
+Route::get('/home', [AdminController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('home');
 
-require __DIR__.'/auth.php';
+require __DIR__.'/auth.php'; 
