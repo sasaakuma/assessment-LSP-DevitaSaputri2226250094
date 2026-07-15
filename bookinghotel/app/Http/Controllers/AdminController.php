@@ -31,6 +31,12 @@ class AdminController extends Controller
                 }
             }
     }
+
+    // untuk menampilkan halaman home.index
+    public function home()
+    {
+        return view('home.index');
+    }
 }
 
 
