@@ -14,7 +14,7 @@ class KamarSeeder extends Seeder
     {
         $kamars = [
             [
-                'nama_kamar' => 'Kamar Standard',
+                'nama_kamar' => 'Standard Room',
                 'tipe_kamar' => 'Standard',
                 'harga' => 350000,
                 'kapasitas' => 2,
@@ -23,7 +23,7 @@ class KamarSeeder extends Seeder
                 'is_tersedia' => true,
             ],
             [
-                'nama_kamar' => 'Kamar Deluxe',
+                'nama_kamar' => 'Deluxe Room',
                 'tipe_kamar' => 'Deluxe',
                 'harga' => 550000,
                 'kapasitas' => 2,
