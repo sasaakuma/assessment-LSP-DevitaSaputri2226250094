@@ -33,55 +33,55 @@ Admin, dengan use case:
 ## Screenshots
 
 Halaman Login
-![Halaman Login](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanLogin.PNG)
+<img width="1914" height="911" alt="HalamanLogin" src="https://github.com/user-attachments/assets/6646cfbf-303c-4240-87b4-23bd3c00c341" />
 
 Halaman Register
-![Halaman Register](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanRegister.PNG)
+<img width="1920" height="913" alt="HalamanRegister" src="https://github.com/user-attachments/assets/24011db0-f8f9-4150-bcae-a0aa3b7db4f7" />
 
 Halaman Utama
-![Halaman Utama](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanUtama.PNG)
+<img width="1920" height="915" alt="HalamanUtama" src="https://github.com/user-attachments/assets/8ad61ba1-3cd7-4b60-aa8d-38da455486aa" />
 
-Halaman Halaman Dashboard User
-![Halaman Dashboard User](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser.PNG)
+Halaman  Dashboard User
+<img width="1920" height="913" alt="HalamanDashboardUser" src="https://github.com/user-attachments/assets/8ae4eb46-7734-4bff-8642-6c9f945f5e1e" />
 
 Halaman Halaman Dashboard User 2
-![Halaman Dashboard User 2](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser2.PNG)
+<img width="1920" height="910" alt="HalamanDashboardUser2" src="https://github.com/user-attachments/assets/3582dca9-36ee-4cb7-85ed-cf70e777e809" />
 
 Halaman Halaman Dashboard User 3
-![Halaman Dashboard User 3](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser3.PNG)
+<img width="1914" height="912" alt="HalamanDashboardUser3" src="https://github.com/user-attachments/assets/9b8f1671-8362-4e20-9c1f-8ec50951b76a" />
 
 Halaman Halaman Dashboard User 4
-![Halaman Dashboard User 4](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser4.PNG)
+<img width="1920" height="909" alt="HalamanDashboardUser4" src="https://github.com/user-attachments/assets/529c5a4b-2e4b-42a7-b69c-bcb23406ef16" />
 
 Form Pemesanan Kamar
-![Form Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/FormulirPemesananKamar.PNG)
+<img width="1920" height="917" alt="FormulirPemesananKamar" src="https://github.com/user-attachments/assets/f19d8d60-3e5c-49ea-9c38-6170fb3a4471" />
 
 Status Pemesanan 
-![Status Pemesanan](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesanan.PNG)
+<img width="1920" height="917" alt="StatusPemesanan" src="https://github.com/user-attachments/assets/28fe6ce8-46f1-4d95-befa-68f78dd7787e" />
 
 Status Pemesanan Kamar
-![Status Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesananKamar.PNG)
+<img width="1920" height="911" alt="StatusPemesananKamar" src="https://github.com/user-attachments/assets/9f84de7a-e89f-4bbb-b563-a0c10b5a53ee" />
 
 Status Pemesanan Kamar
-![Status Pemesanan Setelah Pembayaran](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesananSetelahPembayaran.PNG)
+<img width="1917" height="914" alt="StatusPemesananSetelahPembayaran" src="https://github.com/user-attachments/assets/faa7abaa-fa70-4f4c-ab67-978261954877" />
 
 Verifikasi Pembayaran
-![Verifikasi Pembayaran](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiPembayaran.PNG)
+<img width="1920" height="918" alt="VerifikasiPembayaran" src="https://github.com/user-attachments/assets/3824e9e1-1de1-4df1-9723-b2f9cd0d076b" />
 
 Konfirmasi Pembayaran User
-![Konfirmasi Pembayaran User](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/KonfirmasiPembayaranUser.PNG)
+<img width="1920" height="915" alt="KonfirmasiPembayaranUser" src="https://github.com/user-attachments/assets/5d299e42-5af2-4c4a-85ca-ba9c5785ecfa" />
 
 Dashboard Admin
-![Dashboard Admin](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/DashboardAdmin.PNG)
+<img width="1919" height="924" alt="DashboardAdmin" src="https://github.com/user-attachments/assets/0e93c821-64c7-4ebb-b64b-839f62d25a36" />
 
 Verifikasi Akun Admin
-![Verifikasi Akun Admin](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiAkunAdmin.PNG)
+<img width="1920" height="919" alt="VerifikasiAkunAdmin" src="https://github.com/user-attachments/assets/761b0375-27f7-49e5-a226-d58252f1704c" />
 
 Verifikasi Pembayaran
-![Verifikasi Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiPemesananKamar.PNG)
+<img width="1920" height="918" alt="VerifikasiPembayaran" src="https://github.com/user-attachments/assets/1e836131-d66a-4b03-9d58-d140ba792ee1" />
 
 Kelola Pengumuman 
-![Kelola Pengumuman](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/KelolaPengumuman.PNG)
+<img width="1920" height="907" alt="KelolaPengumuman" src="https://github.com/user-attachments/assets/1975aba7-247b-46e2-90bb-3b5030edc79f" />
 
 
 ## Fitur Utama
