@@ -33,55 +33,55 @@ Admin, dengan use case:
 ## Screenshots
 
 Halaman Login
-![Halaman Login](public/images/HalamanLogin.PNG)
+![Halaman Login](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanLogin.PNG)
 
 Halaman Register
-![Halaman Register](public/images/HalamanRegister.PNG)
+![Halaman Register](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanRegister.PNG)
 
 Halaman Utama
-![Halaman Utama](public/images/HalamanUtama.PNG)
+![Halaman Utama](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanUtama.PNG)
 
 Halaman Halaman Dashboard User
-![Halaman Dashboard User](public/images/HalamanDashboardUser.PNG)
+![Halaman Dashboard User](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser.PNG)
 
 Halaman Halaman Dashboard User 2
-![Halaman Dashboard User 2](public/images/HalamanDashboardUser2.PNG)
+![Halaman Dashboard User 2](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser2.PNG)
 
 Halaman Halaman Dashboard User 3
-![Halaman Dashboard User 3](public/images/HalamanDashboardUser3.PNG)
+![Halaman Dashboard User 3](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser3.PNG)
 
 Halaman Halaman Dashboard User 4
-![Halaman Dashboard User 4](public/images/HalamanDashboardUser4.PNG)
+![Halaman Dashboard User 4](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/HalamanDashboardUser4.PNG)
 
 Form Pemesanan Kamar
-![Form Pemesanan Kamar](public/images/FormulirPemesananKamar.PNG)
+![Form Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/FormulirPemesananKamar.PNG)
 
 Status Pemesanan 
-![Status Pemesanan](public/images/StatusPemesanan.PNG)
+![Status Pemesanan](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesanan.PNG)
 
 Status Pemesanan Kamar
-![Status Pemesanan Kamar](public/images/StatusPemesananKamar.PNG)
+![Status Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesananKamar.PNG)
 
 Status Pemesanan Kamar
-![Status Pemesanan Setelah Pembayaran](public/images/StatusPemesananSetelahPembayaran.PNG)
+![Status Pemesanan Setelah Pembayaran](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/StatusPemesananSetelahPembayaran.PNG)
 
 Verifikasi Pembayaran
-![Verifikasi Pembayaran](public/images/VerifikasiPembayaran.PNG)
+![Verifikasi Pembayaran](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiPembayaran.PNG)
 
 Konfirmasi Pembayaran User
-![Konfirmasi Pembayaran User](public/images/KonfirmasiPembayaranUser.PNG)
+![Konfirmasi Pembayaran User](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/KonfirmasiPembayaranUser.PNG)
 
 Dashboard Admin
-![Dashboard Admin](public/images/DashboardAdmin.PNG)
+![Dashboard Admin](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/DashboardAdmin.PNG)
 
 Verifikasi Akun Admin
-![Verifikasi Akun Admin](public/images/VerifikasiAkunAdmin.PNG)
+![Verifikasi Akun Admin](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiAkunAdmin.PNG)
 
 Verifikasi Pembayaran
-![Verifikasi Pemesanan Kamar](public/images/VerifikasiPemesananKamar.PNG)
+![Verifikasi Pemesanan Kamar](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/VerifikasiPemesananKamar.PNG)
 
 Kelola Pengumuman 
-![Kelola Pengumuman](public/images/KelolaPengumuman.PNG)
+![Kelola Pengumuman](https://raw.githubusercontent.com/sasaakuma/assessment-LSP-DevitaSaputri2226250094/HotelReservasi/public/images/KelolaPengumuman.PNG)
 
 
 ## Fitur Utama
