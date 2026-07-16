@@ -59,10 +59,10 @@ Form Pemesanan Kamar
 Status Pemesanan Setelah Pengisian Form
 <img width="1920" height="917" alt="StatusPemesanan" src="https://github.com/user-attachments/assets/28fe6ce8-46f1-4d95-befa-68f78dd7787e" />
 
-Status Pemesanan Kamar 
+Status Pemesanan Kamar Untuk Pembayaran
 <img width="1920" height="911" alt="StatusPemesananKamar" src="https://github.com/user-attachments/assets/9f84de7a-e89f-4bbb-b563-a0c10b5a53ee" />
 
-Status Pemesanan Kamar
+Status Pemesanan Kamar Status Pembayaran
 <img width="1917" height="914" alt="StatusPemesananSetelahPembayaran" src="https://github.com/user-attachments/assets/faa7abaa-fa70-4f4c-ab67-978261954877" />
 
 Verifikasi Pembayaran
