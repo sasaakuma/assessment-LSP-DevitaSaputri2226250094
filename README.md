@@ -56,10 +56,10 @@ Halaman Halaman Dashboard User 4
 Form Pemesanan Kamar
 <img width="1920" height="917" alt="FormulirPemesananKamar" src="https://github.com/user-attachments/assets/f19d8d60-3e5c-49ea-9c38-6170fb3a4471" />
 
-Status Pemesanan 
+Status Pemesanan Setelah Pengisian Form
 <img width="1920" height="917" alt="StatusPemesanan" src="https://github.com/user-attachments/assets/28fe6ce8-46f1-4d95-befa-68f78dd7787e" />
 
-Status Pemesanan Kamar
+Status Pemesanan Kamar 
 <img width="1920" height="911" alt="StatusPemesananKamar" src="https://github.com/user-attachments/assets/9f84de7a-e89f-4bbb-b563-a0c10b5a53ee" />
 
 Status Pemesanan Kamar
