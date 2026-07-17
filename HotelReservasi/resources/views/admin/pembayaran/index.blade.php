@@ -12,6 +12,9 @@
                     @if(session('success'))
                         <div class="mb-4 text-green-600 dark:text-green-400">{{ session('success') }}</div>
                     @endif
+                    @if(session('error'))
+                        <div class="mb-4 text-red-600 dark:text-red-400">{{ session('error') }}</div>
+                    @endif
 
                     <div class="overflow-x-auto">
                         <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
@@ -34,20 +37,32 @@
                                         <td class="px-6 py-4 text-sm">
                                             <a href="{{ \Illuminate\Support\Facades\Storage::url($data->bukti_pembayaran) }}" target="_blank" class="text-blue-600 hover:underline">Lihat Bukti</a>
                                         </td>
-                                        <td class="px-6 py-4 text-sm text-gray-900 dark:text-gray-100 capitalize">{{ $data->status }}</td>
+                                        <td class="px-6 py-4 text-sm text-gray-900 dark:text-gray-100 capitalize">
+                                            @if($data->status === 'diterima')
+                                                <span class="px-2 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">Diterima</span>
+                                            @elseif($data->status === 'ditolak')
+                                                <span class="px-2 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200">Ditolak</span>
+                                            @else
+                                                <span class="px-2 py-1 rounded-full text-xs font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200">Pending</span>
+                                            @endif
+                                        </td>
                                         <td class="px-6 py-4 text-sm text-gray-900 dark:text-gray-100">
-                                            <form method="POST" action="{{ route('admin.pembayaran.update', $data->id) }}" class="flex items-center gap-2">
-                                                @csrf
-                                                @method('PATCH')
-                                                <select name="status" class="rounded dark:bg-gray-700 dark:text-white">
-                                                    <option value="pending" {{ $data->status === 'pending' ? 'selected' : '' }}>Pending</option>
-                                                    <option value="diterima" {{ $data->status === 'diterima' ? 'selected' : '' }}>Diterima</option>
-                                                    <option value="ditolak" {{ $data->status === 'ditolak' ? 'selected' : '' }}>Ditolak</option>
-                                                </select>
-                                                <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">
-                                                    Simpan
-                                                </button>
-                                            </form>
+                                            @if($data->status === 'pending')
+                                                <form method="POST" action="{{ route('admin.pembayaran.update', $data->id) }}" class="flex items-center gap-2">
+                                                    @csrf
+                                                    @method('PATCH')
+                                                    <select name="status" class="rounded dark:bg-gray-700 dark:text-white">
+                                                        <option value="pending" {{ $data->status === 'pending' ? 'selected' : '' }}>Pending</option>
+                                                        <option value="diterima" {{ $data->status === 'diterima' ? 'selected' : '' }}>Diterima</option>
+                                                        <option value="ditolak" {{ $data->status === 'ditolak' ? 'selected' : '' }}>Ditolak</option>
+                                                    </select>
+                                                    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">
+                                                        Simpan
+                                                    </button>
+                                                </form>
+                                            @else
+                                                <span class="text-xs text-gray-400 italic">Sudah diverifikasi, tidak dapat diubah</span>
+                                            @endif
                                         </td>
                                     </tr>
                                 @empty

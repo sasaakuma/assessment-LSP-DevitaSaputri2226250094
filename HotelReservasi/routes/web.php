@@ -47,8 +47,8 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::resource('announcements', AdminAnnouncementController::class);
 });
 
-// Tamu: pemesanan kamar
-Route::middleware(['auth'])->group(function () {
+// Tamu: pemesanan kamar (khusus akun yang sudah diverifikasi admin)
+Route::middleware(['auth', 'verified.account'])->group(function () {
     Route::get('/reservasi', [ReservasiController::class, 'create'])->name('reservasi.create');
     Route::post('/reservasi', [ReservasiController::class, 'store'])->name('reservasi.store');
     Route::get('/status-reservasi', [StatusReservasiController::class, 'index'])->name('status.reservasi');
@@ -83,3 +83,4 @@ Route::post('/login', [CustomAuthenticatedSessionController::class, 'store'])->n
 
 
 require __DIR__.'/auth.php';
+

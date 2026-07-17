@@ -21,6 +21,11 @@ class AdminPembayaranController extends Controller
         ]);
 
         $pembayaran = Pembayaran::findOrFail($id);
+
+        if ($pembayaran->status !== 'pending') {
+            return redirect()->back()->with('error', 'Pembayaran ini sudah diverifikasi sebelumnya dan tidak dapat diubah lagi.');
+        }
+
         $pembayaran->status = $request->status;
         $pembayaran->save();
 

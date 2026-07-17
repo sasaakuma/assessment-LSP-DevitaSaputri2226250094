@@ -21,6 +21,11 @@ class AdminReservasiController extends Controller
         ]);
 
         $reservasi = Reservasi::findOrFail($id);
+
+        if ($reservasi->status !== 'pending') {
+            return redirect()->back()->with('error', 'Pemesanan ini sudah diverifikasi sebelumnya dan tidak dapat diubah lagi.');
+        }
+
         $reservasi->status = $request->status;
         $reservasi->save();
 

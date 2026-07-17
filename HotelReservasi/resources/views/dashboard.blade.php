@@ -50,33 +50,58 @@
 
             {{-- ✅ MENU CEPAT --}}
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            @if(Auth::user()->role !== 'admin')
+                    @if(Auth::user()->status === 'diterima')
+                        <a href="{{ route('reservasi.create') }}"
+                           class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 hover:shadow-lg transition flex items-start gap-4">
+                            <div class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full p-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2zm0 0l9-4 9 4M7 21v-4a2 2 0 012-2h6a2 2 0 012 2v4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 dark:text-white">Pesan Kamar</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Pilih kamar dan buat pemesanan baru.</p>
+                            </div>
+                        </a>
 
-                @if(Auth::user()->role !== 'admin')
-                    <a href="{{ route('reservasi.create') }}"
-                       class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 hover:shadow-lg transition flex items-start gap-4">
-                        <div class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full p-3">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2zm0 0l9-4 9 4M7 21v-4a2 2 0 012-2h6a2 2 0 012 2v4"/>
-                            </svg>
+                        <a href="{{ route('status.reservasi') }}"
+                           class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 hover:shadow-lg transition flex items-start gap-4">
+                            <div class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full p-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 dark:text-white">Status Pemesanan & Pembayaran</h3>
+                                <p class="text-sm text-gray-500 dark:text-gray-400">Pantau status pemesanan dan konfirmasi pembayaran Anda.</p>
+                            </div>
+                        </a>
+                    @else
+                        <div class="bg-gray-100 dark:bg-gray-800/50 shadow-sm rounded-lg p-6 flex items-start gap-4 opacity-60 cursor-not-allowed" title="Menunggu verifikasi admin">
+                            <div class="bg-gray-200 dark:bg-gray-700 text-gray-400 rounded-full p-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2zm0 0l9-4 9 4M7 21v-4a2 2 0 012-2h6a2 2 0 012 2v4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-500 dark:text-gray-400">Pesan Kamar</h3>
+                                <p class="text-sm text-gray-400 dark:text-gray-500">Tersedia setelah akun Anda diverifikasi admin.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 dark:text-white">Pesan Kamar</h3>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Pilih kamar dan buat pemesanan baru.</p>
-                        </div>
-                    </a>
 
-                    <a href="{{ route('status.reservasi') }}"
-                       class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 hover:shadow-lg transition flex items-start gap-4">
-                        <div class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 rounded-full p-3">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
-                            </svg>
+                        <div class="bg-gray-100 dark:bg-gray-800/50 shadow-sm rounded-lg p-6 flex items-start gap-4 opacity-60 cursor-not-allowed" title="Menunggu verifikasi admin">
+                            <div class="bg-gray-200 dark:bg-gray-700 text-gray-400 rounded-full p-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-500 dark:text-gray-400">Status Pemesanan & Pembayaran</h3>
+                                <p class="text-sm text-gray-400 dark:text-gray-500">Tersedia setelah akun Anda diverifikasi admin.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 dark:text-white">Status Pemesanan & Pembayaran</h3>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Pantau status pemesanan dan konfirmasi pembayaran Anda.</p>
-                        </div>
-                    </a>
+                    @endif
                 @endif
 
                 @if(Auth::user()->role === 'admin')
@@ -151,8 +176,10 @@
                                     <p class="text-sm text-gray-600 dark:text-gray-300 mb-3">{{ \Illuminate\Support\Str::limit($kamar->deskripsi, 90) }}</p>
                                     <div class="flex items-center justify-between">
                                         <p class="text-blue-600 dark:text-blue-400 font-bold">Rp {{ number_format($kamar->harga, 0, ',', '.') }} / malam</p>
-                                        @if(Auth::user()->role !== 'admin')
+                                         @if(Auth::user()->role !== 'admin' && Auth::user()->status === 'diterima')
                                             <a href="{{ route('reservasi.create') }}" class="text-sm text-blue-600 hover:underline">Pesan &rarr;</a>
+                                        @elseif(Auth::user()->role !== 'admin')
+                                            <span class="text-sm text-gray-400 cursor-not-allowed" title="Menunggu verifikasi admin">Pesan &rarr;</span>
                                         @endif
                                     </div>
                                 </div>
